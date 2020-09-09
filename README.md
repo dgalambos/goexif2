@@ -21,7 +21,7 @@ Suggestions and pull requests are welcome.
 To install the exif extraction cli tool, in a terminal type:
 
 ```
-go install github.com/xor-gate/goexif2/cmd/goexif2
+go install github.com/dgalambos/goexif2/cmd/goexif2
 goexif2 <file>.jpg
 ```
 
@@ -29,8 +29,8 @@ Functionality is split into two packages - "exif" and "tiff"
 The exif package depends on the tiff package.
 
 ```
-go get github.com/xor-gate/goexif2/exif
-go get github.com/xor-gate/goexif2/tiff
+go get github.com/dgalambos/goexif2/exif
+go get github.com/dgalambos/goexif2/tiff
 ```
 
 ## Example
@@ -43,8 +43,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/xor-gate/goexif2/exif"
-	"github.com/xor-gate/goexif2/mknote"
+	"github.com/dgalambos/goexif2/exif"
+	"github.com/dgalambos/goexif2/mknote"
 )
 
 func ExampleDecode() {

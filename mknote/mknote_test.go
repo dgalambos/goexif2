@@ -3,7 +3,7 @@ package mknote
 import (
 	"testing"
 
-	"github.com/xor-gate/goexif2/tiff"
+	"github.com/dgalambos/goexif2/tiff"
 )
 
 var tiffMakerNoteValueTests = []struct {
