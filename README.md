@@ -1,10 +1,16 @@
 goexif2
 =======
 
+This project is a fork of `xor-gate/goexif`!
+
 [![License][License-Image]][License-Url]
 [![Godoc][Godoc-Image]][Godoc-Url]
 [![ReportCard][ReportCard-Image]][ReportCard-Url]
 [![Build][Build-Status-Image]][Build-Status-Url]
+
+**NOTICE**
+
+I'm not developing goexif2 any further (for now), if you would like to take over the project please contact me. Kind regards [@xor-gate](https://github.com/xor-gate).
 
 Provides decoding of basic exif and tiff encoded data. This project is a fork of `rwcarlsen/goexif` with
  many PR and patches integrated.
