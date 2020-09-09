@@ -1,6 +1,8 @@
 goexif2
 =======
 
+This project is a fork of `xor-gate/goexif`!
+
 [![License][License-Image]][License-Url]
 [![Godoc][Godoc-Image]][Godoc-Url]
 [![ReportCard][ReportCard-Image]][ReportCard-Url]

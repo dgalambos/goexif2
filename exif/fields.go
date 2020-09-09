@@ -28,6 +28,7 @@ const (
 	Software                             = "Software"
 	Artist                               = "Artist"
 	Copyright                            = "Copyright"
+	SerialNumber                         = "SerialNumber"
 	ExifIFDPointer                       = "ExifIFDPointer"
 	GPSInfoIFDPointer                    = "GPSInfoIFDPointer"
 	InteroperabilityIFDPointer           = "InteroperabilityIFDPointer"
@@ -175,6 +176,7 @@ var exifFields = map[uint16]FieldName{
 	0x0201: JpegFromRawFormat,
 	0x0202: JpegFromRawFormatLength,
 	0x8298: Copyright,
+	0xA431: SerialNumber,
 
 	// private tags
 	exifPointer: ExifIFDPointer,
